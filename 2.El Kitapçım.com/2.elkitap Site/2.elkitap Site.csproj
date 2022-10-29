@@ -1,0 +1,236 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D526D0A7-5632-49E7-B7C9-4D97DBCBE16E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_2.elkitap_Site</RootNamespace>
+    <AssemblyName>2.elkitap Site</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44332</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\about.html" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\checkout.html" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\contact.html" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\css\bootstrap.css" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\css\creditly.css" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\css\easy-responsive-tabs.css" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\css\flexslider.css" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\css\fontawesome-all.css" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\css\menu.css" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\css\popuo-box.css" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\css\style.css" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\faqs.html" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\help.html" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\a.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\a3.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\a4.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\ab.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\arrow.png" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\b1.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\b2.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\b3.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\b4.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\bg.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\bg2.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\close_1.png" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\h.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\image1.png" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\k1.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\k2.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\k3.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\logo2.png" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\m1.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\m2.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\m3.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\m4.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\m5.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\m6.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\m7.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\m8.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\m9.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\mk1.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\mk2.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\mk3.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\mk4.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\mk5.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\mk6.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\mk7.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\mk8.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\mk9.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\mm1.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\mm2.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\mm3.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\mm4.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\mm5.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\mm6.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\move-up.png" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\off1.png" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\off2.png" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\pay1.png" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\pay2.png" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\pay3.png" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\pay4.png" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\pay5.png" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\pay6.png" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\pay7.png" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\pay8.png" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\pay9.png" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\paypal.png" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\search.png" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\si1.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\si2.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\si3.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\sii1.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\sii2.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\sii3.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\user.jpg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\index.html" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\js\bootstrap.js" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\js\creditly.js" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\js\creditly2.js" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\js\easing.js" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\js\easyResponsiveTabs.js" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\js\imagezoom.js" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\js\jquery-2.2.3.min.js" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\js\jquery.flexslider.js" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\js\jquery.magnific-popup.js" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\js\minicart.js" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\js\move-top.js" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\js\scroll.js" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\js\SmoothScroll.min.js" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\payment.html" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\privacy.html" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\product.html" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\product2.html" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\single.html" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\single2.html" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\terms.html" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\w3layouts-License.txt" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\webfonts\fa-brands-400.svg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\webfonts\fa-regular-400.svg" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\webfonts\fa-solid-900.svg" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\images\Thumbs.db" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\webfonts\fa-brands-400.eot" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\webfonts\fa-brands-400.ttf" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\webfonts\fa-brands-400.woff" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\webfonts\fa-brands-400.woff2" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\webfonts\fa-regular-400.eot" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\webfonts\fa-regular-400.ttf" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\webfonts\fa-regular-400.woff" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\webfonts\fa-regular-400.woff2" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\webfonts\fa-solid-900.eot" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\webfonts\fa-solid-900.ttf" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\webfonts\fa-solid-900.woff" />
+    <Content Include="2.elkitap\electro_store-web_Free28-08-2018_1414020280\web\webfonts\fa-solid-900.woff2" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>65173</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44332/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

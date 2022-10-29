@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=4, initial-scale=1.0">
+    <title>Kitapçım.com</title>
+
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules\font-awesome\css\font-awesome.css">
+    <link rel="stylesheet" href="Content\site.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+
+    <script src="node_modules\jquerydist\jquery.min.js"></script>
+    <script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a href="HomePage.html">
+            <img class="mx-4" src="Logo.png" width="150" height="50">
+        </a>
+        <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Menü"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="ddlNotes" data-bs-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Kitaplar
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="ddlNotes">
+                        <a class="dropdown-item" href="LNotes.html">Matematik</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="LNotes.html">İngilizce</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="LNotes.html">Kimya</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="LNotes.html">Bilgisayar</a>
+                        <div class="dropdown-divider"></div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Notlar</a>
+                </li>
+
+            </ul>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Login.html">
+                        <span href="#!/" class="fa fa-sign-in mr-2"></span>Giriş
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Register.html">
+                        <span class="fa fa-user-plus mr-2"></span>Kayıt Ol
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="ddlProfile" data-bs-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <span class="fa fa-user mr-2"></span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="ddlProfile">
+                        <a class="dropdown-item" href="MyProfile.html">Profil Görüntüle</a>
+                        <a class="dropdown-item" href="Addresses.html">Adreslerim</a>
+                        <a class="dropdown-item" href="Orders.html">Siparişlerim</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="ddlCart" data-bs-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <span class="fa fa-shopping-cart mr-2"></span>Sepetim
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="ddlCart">
+                        <a class="dropdown-item" href="Product.html">Ürün 1</a>
+                        <a class="dropdown-item" href="Product.html">Ürün 2</a>
+                        <a class="dropdown-item" href="Product.html">Ürün 3</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Cart.html">Sepete Git</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Sales.html">
+                        <span class="fa fa-arrow-right mr-2" aria-hidden="true"></span>Satış Yap
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+</body>
+
+</html>
